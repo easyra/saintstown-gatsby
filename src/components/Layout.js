@@ -5,7 +5,7 @@ import Header from "./Header"
 const Layout = ({ children }) => {
   return (
     <div>
-      <Header siteTitle="PlaceHolder" />
+      <Header siteTitle="ADISA DIOP" />
       {children}
     </div>
   )
