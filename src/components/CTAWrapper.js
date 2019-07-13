@@ -1,26 +1,13 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
+
 import CTA from "./CTA"
+import AuthorPicture from "./AuthorPicture"
 const CTAWrapper = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      __typename
-      allFile(filter: { name: { eq: "author" } }) {
-        edges {
-          node {
-            publicURL
-          }
-        }
-      }
-    }
-  `)
   return (
     <StyledSection>
       <CTA />
-      <StyledImgWrapper>
-        <img src={data.allFile.edges[0].node.publicURL} />
-      </StyledImgWrapper>
+      <AuthorPicture />
     </StyledSection>
   )
 }
@@ -42,16 +29,5 @@ const StyledSection = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-`
-
-const StyledImgWrapper = styled.div`
-  max-width: 400px;
-  width: 100%;
-  /* max-height: 480px; */
-
-  overflow: hidden;
-  img {
-    width: 100%;
   }
 `
