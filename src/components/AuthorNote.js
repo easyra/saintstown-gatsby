@@ -19,7 +19,7 @@ const StyledSection = styled.section`
   max-width: 1000px;
   width: 100%;
   padding: 15px;
-  margin: 15px auto;
+  margin: 35px auto;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -31,24 +31,5 @@ const StyledSection = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-`
-
-const StyledImgWrapper = styled.div`
-  max-width: 400px;
-  width: 100%;
-  /* max-height: 480px; */
-
-  overflow: hidden;
-  img {
-    width: 100%;
-  }
-  h4 {
-    text-align: center;
-    font-style: italic;
-    margin-bottom: 0;
-  }
-  p {
-    font-style: italic;
   }
 `

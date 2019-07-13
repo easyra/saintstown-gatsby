@@ -26,7 +26,7 @@ export default QuotesContainer
 
 const StyledSection = styled.section`
   padding: 15px;
-  margin: 15px auto 0;
+  margin: 35px auto 0;
   background: #a60505;
   color: #fff;
   @media screen and (max-width: 800px) {

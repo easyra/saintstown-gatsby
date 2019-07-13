@@ -17,7 +17,8 @@ const AuthorNoteText = () => {
         work in by seeking my truth and becoming my most authentic self. My
         desire is for you join in my discovery and you too find it for yourself.
       </p>
-      <p>-OneLove Adisa</p>
+      <h6>From the author</h6>
+      <h4>OneLove Adisa</h4>
     </StyledText>
   )
 }
@@ -27,4 +28,10 @@ export default AuthorNoteText
 const StyledText = styled.div`
   max-width: 500px;
   width: 100%;
+  h4 {
+    margin: 0;
+  }
+  h6 {
+    margin: 6px 0;
+  }
 `
