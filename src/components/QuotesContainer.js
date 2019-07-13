@@ -29,11 +29,6 @@ const StyledSection = styled.section`
   margin: 35px auto 0;
   background: #a60505;
   color: #fff;
-  @media screen and (max-width: 800px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 `
 const StyledContainer = styled.div`
   max-width: 1000px;
@@ -41,6 +36,7 @@ const StyledContainer = styled.div`
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   p {
     width: 100%;
     max-width: 450px;

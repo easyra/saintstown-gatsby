@@ -5,7 +5,7 @@ const Quote = ({ quote, author }) => {
   return (
     <StyledQuote>
       {quote}
-      <h4>{author}</h4>
+      <h5>{author}</h5>
     </StyledQuote>
   )
 }
