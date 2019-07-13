@@ -39,7 +39,7 @@ const StyledImgWrapper = styled.div`
     width: 100%;
   }
   h4 {
-    text-align: center;
+    /* text-align: center; */
     font-style: italic;
     margin-bottom: 0;
   }
