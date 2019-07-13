@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => {
 }
 
 const StyledHeader = styled.header`
-  @import url("https://fonts.googleapis.com/css?family=Merienda|Roboto&display=swap");
+  width: 100%;
   padding: 15px;
   background: #a60505;
   color: #fff;
@@ -36,7 +36,7 @@ const StyledHeader = styled.header`
 
     margin: 0;
     a {
-      font-family: "Merienda";
+      font-family: "Merienda", sans-serif;
       color: #fff;
       text-decoration: none;
     }
@@ -44,12 +44,14 @@ const StyledHeader = styled.header`
   nav {
     display: flex;
     margin: 0 15px;
+    width: 300px;
+    justify-content: space-around;
     a {
       color: #fff;
       text-decoration: none;
       text-transform: uppercase;
       opacity: 0.8;
-      padding: 8px;
+      /* padding: 8px; */
       transition: all 0.2s;
       :hover {
         opacity: 1;
