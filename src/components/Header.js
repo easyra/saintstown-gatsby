@@ -77,6 +77,8 @@ const StyledNav = styled.nav`
     transition: all 0.1s;
     @media screen and (max-width: 800px) {
       width: 100%;
+      text-align: center;
+      padding: 15px;
     }
     :hover {
       opacity: 1;

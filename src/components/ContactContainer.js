@@ -15,6 +15,7 @@ const ContactContainer = () => {
 export default ContactContainer
 
 const StyledDiv = styled.div`
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
