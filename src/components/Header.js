@@ -74,7 +74,7 @@ const StyledNav = styled.nav`
     text-transform: uppercase;
     opacity: 0.8;
     padding: 8px;
-    transition: all 0.2s;
+    transition: all 0.1s;
     @media screen and (max-width: 800px) {
       width: 100%;
     }
