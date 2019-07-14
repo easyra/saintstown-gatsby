@@ -1,23 +1,11 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
+import imgsrc from "../../img/family.jpg"
 
 const DedicationContainer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      __typename
-      allFile(filter: { name: { eq: "family" } }) {
-        edges {
-          node {
-            publicURL
-          }
-        }
-      }
-    }
-  `)
   return (
     <StyledImgWrapper>
-      <img src={data.allFile.edges[0].node.publicURL} />
+      <img src={imgsrc} />
       <h4>In Dedication</h4>
       <p>
         To my Dear Future Wife, my legacy and tribe. I love you all madly. Thank

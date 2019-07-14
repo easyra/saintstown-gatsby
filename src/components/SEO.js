@@ -1,25 +1,14 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
+import imgsrc from "../img/author.jpg"
 
 const SEO = () => {
-  const data = useStaticQuery(graphql`
-    {
-      __typename
-      allFile(filter: { name: { eq: "author" } }) {
-        edges {
-          node {
-            publicURL
-          }
-        }
-      }
-    }
-  `)
   const title = "Adisa Diop | Dear Future Wife"
   const description =
     "Adisa Diop is a writer/actor in the LA area. Adisa Diop's newest book is Dear Future Wife. You can buy the book Dear Future Wife by Adisa Diop from this site. If the work by Adisa Diop is interesting you, make sure to come back to saintstown.com for updates."
   const url = "https://saintstown.com/"
-  const image = data.allFile.edges[0].node.publicURL
+  const image = imgsrc
   return (
     <Helmet>
       {/* General tags */}

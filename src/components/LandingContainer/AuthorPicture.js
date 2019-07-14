@@ -1,23 +1,11 @@
 import React from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
+import imgsrc from "../../img/author.jpg"
 
 const AuthorPicture = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      __typename
-      allFile(filter: { name: { eq: "author" } }) {
-        edges {
-          node {
-            publicURL
-          }
-        }
-      }
-    }
-  `)
   return (
     <StyledImgWrapper>
-      <img src={data.allFile.edges[0].node.publicURL} />
+      <img src={imgsrc} />
     </StyledImgWrapper>
   )
 }
