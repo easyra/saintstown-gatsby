@@ -3,12 +3,7 @@ import styled from "styled-components"
 
 const ContactForm = () => {
   return (
-    <StyledForm
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      data-netlify-recaptcha="true"
-    >
+    <StyledForm action="https://formspree.io/ralaez.89@gmail.com" method="POST">
       <p>
         <label>Your Email</label>
         <input type="email" name="email" required />
@@ -21,7 +16,6 @@ const ContactForm = () => {
         <label>Message</label>
         <textarea name="message" required></textarea>
       </p>
-      <div data-netlify-recaptcha="true"></div>
       <p>
         <button type="submit">Send Your Message</button>
       </p>

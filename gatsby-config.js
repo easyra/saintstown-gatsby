@@ -8,6 +8,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
+    email: "ralaez.89@gmail.com",
     readingList: [
       {
         title: "Siddartha",
