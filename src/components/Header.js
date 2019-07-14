@@ -18,8 +18,8 @@ const Header = ({ siteTitle }) => {
         <Link activeStyle={{ opacity: 1 }} to="readinglist">
           Reading List
         </Link>
-        <Link activeStyle={{ opacity: 1 }} to="blog">
-          Blog
+        <Link activeStyle={{ opacity: 1 }} to="review">
+          Review
         </Link>
         <Link activeStyle={{ opacity: 1 }} to="interviews">
           Interviews
