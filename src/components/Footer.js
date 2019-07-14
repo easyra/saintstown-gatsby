@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <StyledFooter>
       <Link to="contact">Contact Me</Link> | <a href="">Buy Book</a> |{" "}
-      <a href="">Read Excerpt</a>
+      <Link to="excerpt">Read Excerpt</Link>
     </StyledFooter>
   )
 }
