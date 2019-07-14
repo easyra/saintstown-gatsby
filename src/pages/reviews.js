@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/Layout"
-import ReviewContainer from "../components/ReviewContainer"
+import ReviewsContainer from "../components/ReviewsContainer"
 
 export default () => {
   return (
     <Layout>
-      <ReviewContainer />
+      <ReviewsContainer />
     </Layout>
   )
 }

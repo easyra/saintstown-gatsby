@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-const ReviewContainer = () => {
+const ReviewsContainer = () => {
   return (
     <StyledSection>
       <h1>Reviews</h1>
@@ -10,7 +10,7 @@ const ReviewContainer = () => {
   )
 }
 
-export default ReviewContainer
+export default ReviewsContainer
 
 const StyledSection = styled.section`
   max-width: 1000px;
