@@ -24,7 +24,7 @@ const LandingContainer = () => {
     <>
       <CTAWrapper />
       <AuthorNote />
-      <QuotesContainer />
+      {/* <QuotesContainer /> */}
     </>
   )
 }
