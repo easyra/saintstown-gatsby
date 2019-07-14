@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => {
         <Link to="">{siteTitle}</Link>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />
-      <StyledNav openMenu={openMenu} onMouseLeave={() => setOpenMenu(false)}>
+      <StyledNav openMenu={openMenu}>
         <Link activeStyle={{ opacity: 1 }} to="readinglist">
           Reading List
         </Link>
