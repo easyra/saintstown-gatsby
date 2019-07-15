@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const BuyBookBtn = () => {
-  return <StyledButton>Buy Now</StyledButton>
+  return <StyledButton>Buy Soon</StyledButton>
 }
 
 const StyledButton = styled.button`
