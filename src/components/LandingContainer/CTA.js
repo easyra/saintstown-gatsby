@@ -7,7 +7,7 @@ const CTA = () => {
   return (
     <StyledCTA>
       <BookTitle>Dear Future Wife</BookTitle>
-      <p>- inspired by a Facebook Post</p>
+      <p>My Seven Proposals</p>
 
       <BuyBookBtn styles="margin: 0 0 10px;">Buy Now</BuyBookBtn>
       <Link to="excerpt">Read Excerpt</Link>
