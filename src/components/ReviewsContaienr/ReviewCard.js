@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-const ReviewCard = ({ author, title, review }) => {
+const ReviewCard = ({ author, title, children }) => {
   return (
     <StyledReviewCard>
       <h2>{author}</h2>
       <h4>{title}</h4>
-      <p>{review}</p>
+      {children}
     </StyledReviewCard>
   )
 }
@@ -21,5 +21,10 @@ const StyledReviewCard = styled.div`
   }
   p {
     line-height: 2;
+  }
+  h4,
+  h2,
+  p {
+    text-transform: uppercase;
   }
 `

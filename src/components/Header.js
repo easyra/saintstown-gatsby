@@ -7,26 +7,26 @@ const Header = ({ siteTitle }) => {
   const handleClick = () => {
     setOpenMenu(!openMenu)
   }
+  const links = [
+    { title: "Reading List", href: "/readinglist" },
+    { title: "Biography", href: "/bio" },
+    { title: "Reviews", href: "/reviews" },
+    { title: "Film Decks", href: "/filmdecks" },
+    { title: "Contact", href: "/contact" },
+  ]
 
   return (
     <StyledHeader>
       <h1>
-        <Link to="">{siteTitle}</Link>
+        <a style={{ color: "#000" }} href="/">
+          {siteTitle}
+        </a>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />
       <StyledNav openMenu={openMenu}>
-        <Link activeStyle={{ opacity: 1 }} to="readinglist">
-          Reading List
-        </Link>
-        <Link activeStyle={{ opacity: 1 }} to="reviews">
-          Reviews
-        </Link>
-        <Link activeStyle={{ opacity: 1 }} to="synopsis">
-          Synopsis
-        </Link>
-        <Link activeStyle={{ opacity: 1 }} to="contact">
-          Contact
-        </Link>
+        {links.map(({ title, href }) => (
+          <a href={href}>{title}</a>
+        ))}
       </StyledNav>
     </StyledHeader>
   )

@@ -18,7 +18,7 @@ const AuthorNoteText = () => {
         desire is for you join in my discovery and you too find it for yourself.
       </p>
       <h6>From the author</h6>
-      <h4>OneLove Adisa</h4>
+      <h4>OneLove Randall</h4>
     </StyledText>
   )
 }

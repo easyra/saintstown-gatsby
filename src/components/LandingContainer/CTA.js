@@ -8,8 +8,6 @@ const CTA = () => {
   return (
     <StyledCTA>
       <CoverPicture />
-      <BookTitle>Dear Future Wife</BookTitle>
-      <p>My Seven Proposals</p>
 
       <BuyBookBtn styles="margin: 0 0 10px;" />
       <Link to="excerpt">Read Excerpt</Link>
