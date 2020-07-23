@@ -9,7 +9,11 @@ const Header = ({ siteTitle }) => {
   }
   const links = [
     { title: "Script Synopsis", href: "/synopsis" },
-    { title: "Film Decks", href: "/filmdecks" },
+    {
+      title: "Film Decks",
+      href:
+        "https://drive.google.com/file/d/1TNz-hORp9sYRgGZb5OGMYbIlrm8dRj3h/view",
+    },
     { title: "Podcast", href: "/podcast" },
     { title: "Reviews", href: "/reviews" },
     { title: "Reading List", href: "/readinglist" },
