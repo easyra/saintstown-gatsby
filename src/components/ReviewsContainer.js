@@ -31,12 +31,12 @@ const ReviewsContainer = () => {
             about giving a woman monogamy and LOVE.
           </p>
           <p>
-            Kind of scary, a lot of the things  I enjoy and desire, you speak so
-            eloquently about: The therapeutic healing power of great music,
-            yoga, meditation, Loving to kiss, cuddle, and more importantly a man
-            that knows that know a woman want to be affirmed, protected and
-            appreciated for all that she do to make her man feel special and
-            create the place solace called home.
+            Kind of scary, a lot of the things  I enjoy and desire, Randall
+            speak so eloquently about: The therapeutic healing power of great
+            music, yoga, meditation, Loving to kiss, cuddle, and more
+            importantly a man that knows that a woman want to be affirmed,
+            protected and appreciated for all that she do to make her man feel
+            special and create the place solace called home.
           </p>
           <p>
             Exhilarating and eye opening about what men deposit into the
