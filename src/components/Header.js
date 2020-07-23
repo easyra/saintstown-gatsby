@@ -8,12 +8,11 @@ const Header = ({ siteTitle }) => {
     setOpenMenu(!openMenu)
   }
   const links = [
-    { title: "Reading List", href: "/readinglist" },
     { title: "Script Synopsis", href: "/synopsis" },
-    { title: "Reviews", href: "/reviews" },
     { title: "Film Decks", href: "/filmdecks" },
-    ,
     { title: "Podcast", href: "/podcast" },
+    { title: "Reviews", href: "/reviews" },
+    { title: "Reading List", href: "/readinglist" },
     { title: "Contact", href: "/contact" },
   ]
 
