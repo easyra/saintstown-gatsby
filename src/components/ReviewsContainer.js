@@ -5,7 +5,7 @@ import StyledSection from "./@shared/StyledSection"
 
 const ReviewsContainer = () => {
   return (
-    <StyledSection>
+    <StyledSection style={{ width: 500 }}>
       <h1>Reviews</h1>
       <StyledReviewList>
         <ReviewCard

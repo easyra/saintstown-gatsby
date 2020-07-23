@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => {
   }
   const links = [
     { title: "Reading List", href: "/readinglist" },
-    { title: "Biography", href: "/bio" },
+    { title: "Synopsis", href: "/synopsis" },
     { title: "Reviews", href: "/reviews" },
     { title: "Film Decks", href: "/filmdecks" },
     { title: "Contact", href: "/contact" },
