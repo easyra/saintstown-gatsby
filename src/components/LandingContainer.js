@@ -4,6 +4,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import CTAWrapper from "./LandingContainer/CTAWrapper"
 import AuthorNote from "./LandingContainer/AuthorNote"
 import QuotesContainer from "./LandingContainer/QuotesContainer"
+import AuthorPicture from "./LandingContainer/AuthorPicture"
 
 const LandingContainer = () => {
   const data = useStaticQuery(graphql`
@@ -24,6 +25,7 @@ const LandingContainer = () => {
     <>
       <CTAWrapper />
       <AuthorNote />
+      <AuthorPicture />
       {/* <QuotesContainer /> */}
     </>
   )

@@ -5,10 +5,12 @@ import StyledButton from "../@shared/StyledButton"
 
 const AuthorPicture = () => {
   return (
-    <StyledImgWrapper>
-      <img src={imgsrc} style={{ marginBottom: 15 }} />
-      <StyledButton to="bio">Learn more</StyledButton>
-    </StyledImgWrapper>
+    <div>
+      <StyledImgWrapper>
+        <img src={imgsrc} style={{ marginBottom: 15 }} />
+        <StyledButton to="bio">Learn more</StyledButton>
+      </StyledImgWrapper>
+    </div>
   )
 }
 
@@ -22,6 +24,7 @@ const StyledImgWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 
   overflow: hidden;
   img {

@@ -6,7 +6,7 @@ import StyledSection from "./@shared/StyledSection"
 const ReviewsContainer = () => {
   return (
     <StyledSection style={{ width: "80%" }}>
-      <h1>Reviews</h1>
+      <h1>Book Reviews</h1>
       <StyledReviewList>
         <ReviewCard
           author="Paul C. Dozier"

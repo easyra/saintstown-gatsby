@@ -9,7 +9,6 @@ const CTAWrapper = () => {
     <StyledSection>
       <CTA />
       <PaintPicture />
-      <AuthorPicture />
     </StyledSection>
   )
 }
