@@ -8,7 +8,7 @@ const AuthorPicture = () => {
     <div>
       <StyledImgWrapper>
         <img src={imgsrc} style={{ marginBottom: 15 }} />
-        <StyledButton to="bio">Learn more</StyledButton>
+        <StyledButton href="bio">Bio</StyledButton>
       </StyledImgWrapper>
     </div>
   )

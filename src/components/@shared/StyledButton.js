@@ -2,12 +2,12 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-const StyledButton = ({ children, to = "", outline }) => {
+const StyledButton = ({ children, href = "", outline }) => {
   return (
-    <Link to={to}>
+    <a href={href}>
       {outline && <StyledButtonOutline>{children}</StyledButtonOutline>}
       {!outline && <StyledButtonWrapper>{children}</StyledButtonWrapper>}
-    </Link>
+    </a>
   )
 }
 
