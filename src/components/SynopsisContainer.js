@@ -6,7 +6,7 @@ const SynopsisContainer = () => {
   const keys = Object.keys(synopsisdata)
 
   return (
-    <StyledSection style={{ width: 500 }}>
+    <StyledSection style={{ maxWidth: 500 }}>
       {keys.map(name => {
         return (
           <div>

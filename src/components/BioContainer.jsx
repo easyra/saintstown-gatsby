@@ -3,7 +3,7 @@ import StyledSection from "./@shared/StyledSection"
 
 const BioContainer = () => {
   return (
-    <StyledSection style={{ width: 500 }}>
+    <StyledSection style={{ maxWidth: 500 }}>
       <h1>Randall Courtland Davis</h1>
       <p>
         Randall Courtland Davis is a graduate of Clark Atlanta University with a

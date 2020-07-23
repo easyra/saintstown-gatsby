@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import ContactForm from "./ContactContainer/ContactForm"
+import ContactPicture from "./ContactContainer/ContactPicture"
 
 const ContactContainer = () => {
   return (
@@ -8,6 +9,7 @@ const ContactContainer = () => {
       <h1>Email Me Here</h1>
       <h4>ralaez.89@gmail.com</h4>
       <ContactForm />
+      <ContactPicture />
     </StyledDiv>
   )
 }
