@@ -8,7 +8,7 @@ const ContactPicture = () => {
     <div>
       <StyledImgWrapper>
         <img src={imgsrc} style={{ marginBottom: 15 }} />
-        <StyledButton to="bio">Learn more</StyledButton>
+        {/* <StyledButton to="bio">Learn more</StyledButton> */}
       </StyledImgWrapper>
     </div>
   )
