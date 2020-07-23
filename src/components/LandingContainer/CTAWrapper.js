@@ -20,7 +20,9 @@ const StyledSection = styled.section`
   padding: 15px;
   margin: 15px auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   p {
     width: 100%;
     max-width: 450px;

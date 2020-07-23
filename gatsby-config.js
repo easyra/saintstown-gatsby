@@ -39,6 +39,16 @@ module.exports = {
       { title: "The Five Love Languages", author: "Gary Chapman", link: "" },
       { title: "The Prophet", author: "Kahlil Gibran", link: "" },
       { title: "The Mastery of Love", author: "Don Miguel Ruiz", link: "" },
+      {
+        title: "All About Love",
+        author: "Bell Hooks",
+        link: "",
+      },
+      {
+        title: "Isis Papers",
+        author: "Dr. Francis Cress Welsing",
+        link: "",
+      },
     ],
   },
   plugins: [

@@ -1,11 +1,18 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
-const BuyBookBtn = () => {
-  return <StyledButton>Book Drops September 25</StyledButton>
+const StyledButton = ({ children, to = "" }) => {
+  return (
+    <Link to={to}>
+      <StyledButtonWrapper>{children}</StyledButtonWrapper>
+    </Link>
+  )
 }
 
-const StyledButton = styled.button`
+export default StyledButton
+
+const StyledButtonWrapper = styled.button`
   padding: 8px;
   text-align: center;
   background: #a60505;
@@ -17,4 +24,3 @@ const StyledButton = styled.button`
   text-transform: uppercase;
   cursor: pointer;
 `
-export default BuyBookBtn

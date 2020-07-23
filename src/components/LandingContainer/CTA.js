@@ -2,14 +2,16 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import BuyBookBtn from "../BuyBookBtn"
+import CoverPicture from "./CoverPicture"
 
 const CTA = () => {
   return (
     <StyledCTA>
+      <CoverPicture />
       <BookTitle>Dear Future Wife</BookTitle>
       <p>My Seven Proposals</p>
 
-      <BuyBookBtn styles="margin: 0 0 10px;">Buy Now</BuyBookBtn>
+      <BuyBookBtn styles="margin: 0 0 10px;" />
       <Link to="excerpt">Read Excerpt</Link>
     </StyledCTA>
   )

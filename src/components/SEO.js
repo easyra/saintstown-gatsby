@@ -4,9 +4,9 @@ import { graphql, useStaticQuery } from "gatsby"
 import imgsrc from "../img/author.jpg"
 
 const SEO = () => {
-  const title = "Adisa Diop | Dear Future Wife"
+  const title = "Randall Courtland Davis | Dear Future Wife"
   const description =
-    "Adisa Diop is a writer/actor in the LA area. Adisa Diop's newest book is Dear Future Wife. You can buy the book Dear Future Wife by Adisa Diop from this site. If the work by Adisa Diop is interesting you, make sure to come back to saintstown.com for updates."
+    "Randall Courtland Davis is a writer/actor in the LA area. Randall Courtland Davis's newest book is Dear Future Wife. You can buy the book Dear Future Wife by Randall Courtland Davis from this site. If the work by Randall Courtland Davis is interesting you, make sure to come back to saintstown.com for updates."
   const url = "https://saintstown.com/"
   const image = imgsrc
   return (
