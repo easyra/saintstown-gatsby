@@ -21,6 +21,7 @@ const StyledReviewCard = styled.div`
   }
   p {
     line-height: 2;
+    font-size: 0.9rem;
   }
   h4,
   h2,
