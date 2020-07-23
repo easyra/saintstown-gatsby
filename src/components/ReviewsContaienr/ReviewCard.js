@@ -24,8 +24,7 @@ const StyledReviewCard = styled.div`
     font-size: 0.9rem;
   }
   h4,
-  h2,
-  p {
+  h2 {
     text-transform: uppercase;
   }
 `

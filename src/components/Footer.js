@@ -5,8 +5,8 @@ import { Link } from "gatsby"
 const Footer = () => {
   return (
     <StyledFooter>
-      <Link to="contact">Contact Me</Link> | <a href="">Buy Soon</a> |{" "}
-      <Link to="excerpt">Read Excerpt</Link>
+      <a href="/contact">Contact Me</a> | <a href="">Buy Soon</a> |{" "}
+      <a href="/excerpt">Read Excerpt</a>
     </StyledFooter>
   )
 }

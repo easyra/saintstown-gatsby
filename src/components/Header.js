@@ -23,14 +23,20 @@ const Header = ({ siteTitle }) => {
   return (
     <StyledHeader>
       <h1>
-        <a style={{ color: "#000" }} href="/">
+        <a
+          onClick={() => setOpenMenu(false)}
+          style={{ color: "#000" }}
+          href="/"
+        >
           {siteTitle}
         </a>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />
       <StyledNav openMenu={openMenu}>
         {links.map(({ title, href }) => (
-          <a href={href}>{title}</a>
+          <a onClick={() => setOpenMenu(false)} href={href}>
+            {title}
+          </a>
         ))}
       </StyledNav>
     </StyledHeader>
@@ -90,13 +96,11 @@ const StyledNav = styled.nav`
     }
   }
   @media screen and (max-width: 800px) {
-    /* display:none; */
+    display: ${({ openMenu }) => (openMenu ? "flex" : "none")};
     position: absolute;
-    transition: all 0.2s;
-    transition-timing-function: ease-in;
     background: #a60505;
     width: 100%;
-    left: ${({ openMenu }) => (openMenu ? "0" : "100%")};
+    left: 0;
     top: 70px;
     flex-direction: column;
     margin: 0;

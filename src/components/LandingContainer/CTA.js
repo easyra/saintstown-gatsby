@@ -3,14 +3,17 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 import BuyBookBtn from "../BuyBookBtn"
 import CoverPicture from "./CoverPicture"
+import StyledButton from "../@shared/StyledButton"
 
 const CTA = () => {
   return (
     <StyledCTA>
       <CoverPicture />
 
-      <BuyBookBtn styles="margin: 0 0 10px;" />
-      <Link to="excerpt">Read Excerpt</Link>
+      <BuyBookBtn styles="margin: 0 0 15px;" />
+      <StyledButton href="/excerpt" outline>
+        Read Excerpt
+      </StyledButton>
     </StyledCTA>
   )
 }

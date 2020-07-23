@@ -13,13 +13,14 @@ const CoverPicture = () => {
 export default CoverPicture
 
 const StyledImgWrapper = styled.div`
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
   /* max-height: 480px; */
   border-radius: 4px;
+  margin-bottom: 15px;
 
   overflow: hidden;
   img {
-    width: 100%;
+    width: 500px;
   }
 `

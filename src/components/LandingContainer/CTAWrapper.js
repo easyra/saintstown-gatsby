@@ -8,7 +8,6 @@ const CTAWrapper = () => {
   return (
     <StyledSection>
       <CTA />
-      <PaintPicture />
     </StyledSection>
   )
 }
