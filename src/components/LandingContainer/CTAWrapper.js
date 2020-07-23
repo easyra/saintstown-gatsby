@@ -3,10 +3,12 @@ import styled from "styled-components"
 
 import CTA from "./CTA"
 import AuthorPicture from "./AuthorPicture"
+import PaintPicture from "./PaintPicture"
 const CTAWrapper = () => {
   return (
     <StyledSection>
       <CTA />
+      <PaintPicture />
       <AuthorPicture />
     </StyledSection>
   )
