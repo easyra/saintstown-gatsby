@@ -64,6 +64,9 @@ const StyledHeader = styled.header`
     }
   h1 {
     text-transform: uppercase;
+    @media screen and (max-width: 500px) {
+      font-size:1.2em
+    }
 
     margin: 0;
     a {
