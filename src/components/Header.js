@@ -48,7 +48,7 @@ const StyledHeader = styled.header`
   width: 100%;
   padding: 15px;
   background: #a60505;
-  color: #fff;
+  color: #000;
   display: flex;
   /* justify-content: space-between; */
   i {
@@ -71,7 +71,7 @@ const StyledHeader = styled.header`
     margin: 0;
     a {
       font-family: "Merienda", sans-serif;
-      color: #fff;
+      color: #000;
       text-decoration: none;
     }
   }
@@ -84,7 +84,7 @@ const StyledNav = styled.nav`
   display: flex;
   margin: 0 0 0 15px;
   a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     opacity: 0.8;
