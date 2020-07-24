@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => {
           style={{ color: "#000" }}
           href="/"
         >
-          {siteTitle}
+          "Saints Town Prod. LLC"
         </a>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />

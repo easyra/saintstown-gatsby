@@ -15,7 +15,7 @@ const AuthorNoteText = () => {
         It is my hope to enlighten you through what I have learned and let you
         see me as I see you. The goal for me is to find my lost rib and put my
         work in by seeking my truth and becoming my most authentic self. My
-        desire is for you join in my discovery and you too find it for yourself.
+        desire is for you join in my discovery and you to find it for yourself.
       </p>
       <h6>From the author</h6>
       <h4>OneLove Randall</h4>

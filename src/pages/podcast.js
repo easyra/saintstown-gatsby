@@ -6,7 +6,7 @@ export default () => {
   return (
     <Layout>
       <StyledSection>
-        <h2>Rapping with Randy Podcast</h2>
+        <h2>Rapping with Randall</h2>
         <p>Coming Soon...</p>
       </StyledSection>
     </Layout>

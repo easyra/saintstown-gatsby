@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <SEO />
-      <Header siteTitle="Saints Town" />
+      <Header siteTitle="Saints Town Productions" />
       {children}
       <Footer />
     </div>
