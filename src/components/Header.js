@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
     { title: "Podcast", href: "/podcast" },
     { title: "Reviews", href: "/reviews" },
     { title: "Reading List", href: "/readinglist" },
-    { title: "interview", href: "/interviews" },
+    { title: "Interviews", href: "/interviews" },
     { title: "Contact", href: "/contact" },
   ]
 
