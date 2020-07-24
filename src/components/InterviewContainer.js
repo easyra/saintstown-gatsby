@@ -5,7 +5,12 @@ const InterviewContainer = () => {
   return (
     <StyledSection>
       <h1>Interviews</h1>
-      <h2>Coming Soon</h2>
+      <a
+        style={{ color: "red" }}
+        href="https://wearethewhistleblowers.com/artist-conversations/f/randal-courtland"
+      >
+        Ambre Makeyev Sits Down with Randy
+      </a>
     </StyledSection>
   )
 }
