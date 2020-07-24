@@ -27,7 +27,7 @@ const completedFeatures = [
   {
     title: "A LIFE’S RUN",
     text:
-      "A Life's Run, a crime and family drama, about a family of gifted track stars who is hit with tragedy, when their estranged sister, is murdered. Unaware the sister had a daughter that grew up a troubled teen in foster care.  Seventeen years later the daughter, in the act of committing a crime and being witness to another, unknowingly reunited with her mother’s sister, while running from the scene via a random car accident.  The aunt’s passion for running was never the same after her sister’s death, until now. Unaware of their relationship; they instantly feel a connection.  They share a love for running.  It is an uplifting story for those who believe despite life “lifing” you; you should continue to run the race.",
+      "A Life's Run, a crime and family drama about a family of gifted track stars who is hit with tragedy when their estranged sister is murdered. Unaware the sister had a daughter that grew up a troubled teen in foster care.  Seventeen years later the daughter, in the act of committing a crime and being witness to another, unknowingly reunited with her mother’s sister, while running from the scene via a random car accident.  The aunt’s passion for running was never the same after her sister’s death, until now. Unaware of their relationship; they instantly feel a connection.  They share a love for running.  It is an uplifting story for those who believe despite life “lifing” you; you should continue to run the race.",
   },
 ]
 
@@ -61,12 +61,12 @@ const completedStagePlays = [
   {
     title: "BROTHERS",
     text:
-      "A play with soulful, Hip Hop and R&B 70’s, 80’s and 90’s music playing throughout.  In every major city there are urban barbershops where Black men come together to celebrate, discuss, politicize, criticize, and analyze the social, economic, spiritual, and sexual experience of its people. Mack is the owner of such a barbershop.  He has no children but is a surrogate father to the fatherless kids in the neighborhood.   Brothers is an intimate story of Mack a widower and two “sons;” one, a gangster, ignored, never knowing who his biological father was, and the other, a college student, raised with his father.  Mack, along with his disciples, tries to correct some of the misunderstood relationships’ fathers have with their sons and sons with their fathers. Mack ministering to both his adopted sons about the relationship they must have with their heavenly father before tragedy strikes.",
+      "A play with soulful, Hip Hop and R&B 70’s, 80’s and 90’s music playing throughout.  In every major city there are urban barbershops where Black men come together to celebrate, discuss, politicize, criticize, and analyze the social, economic, spiritual, and sexual experience of its people. Mack is the owner of such a barbershop.  He has no children but is a surrogate father to the fatherless kids in the neighborhood.   Brothers is an intimate story of Mack, a widower and two “sons;” one, a gangster, ignored, never knowing who his biological father was, and the other, a college student, raised with his father.  Mack, along with his disciples, tries to correct some of the misunderstood relationships’ fathers have with their sons and sons with their fathers. Mack ministering to both his adopted sons about the relationship they must have with their heavenly father before tragedy strikes.",
   },
   {
     title: "SIMON AND SKY",
     text:
-      "a skid-row musical pays homage to, and is based on the well-known play and opera “Porgy and Bess.” This musical has a powerful social and spiritual message: do something for the kingdom, be a blessing to others, reach out before backing away and simply SEE people.",
+      "A skid-row musical pays homage to, and is based on the well-known play and opera “Porgy and Bess.” This musical has a powerful social and spiritual message: do something for the kingdom, be a blessing to others, reach out before backing away and simply SEE people.",
   },
 ]
 const data = {

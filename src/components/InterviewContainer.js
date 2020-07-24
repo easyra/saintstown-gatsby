@@ -9,7 +9,7 @@ const InterviewContainer = () => {
         style={{ color: "red" }}
         href="https://wearethewhistleblowers.com/artist-conversations/f/randal-courtland"
       >
-        Ambre Makeyev Sits Down with Randy
+        Ambre Makeyev Sits Down with Randall
       </a>
     </StyledSection>
   )
