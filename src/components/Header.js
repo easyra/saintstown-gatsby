@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => {
 const StyledHeader = styled.header`
   width: 100%;
   padding: 15px;
-  background: #a60505;
+  background: #702663;
   color: #000;
   display: flex;
   /* justify-content: space-between; */
