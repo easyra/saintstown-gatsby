@@ -15,7 +15,7 @@ const StyledItem = styled.li`
 `
 
 const StyledLink = styled.a`
-  color: #a60505;
+  color: #702663;
   text-decoration: underline;
 `
 

@@ -18,6 +18,6 @@ const StyledFooter = styled.footer`
   padding: 15px;
   text-align: center;
   a {
-    color: #a60505;
+    color: #702663;
   }
 `

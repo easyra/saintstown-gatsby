@@ -30,7 +30,7 @@ const StyledCTA = styled.section`
   }
   a {
     /* text-decoration: underline; */
-    color: #a60505;
+    color: #702663;
   }
   button {
     margin: 0 0 10px;

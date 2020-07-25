@@ -27,7 +27,7 @@ export default QuotesContainer
 const StyledSection = styled.section`
   padding: 15px;
   margin: 35px auto 0;
-  background: #a60505;
+  background: #702663;
   color: #fff;
 `
 const StyledContainer = styled.div`
