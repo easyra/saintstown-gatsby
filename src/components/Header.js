@@ -13,8 +13,7 @@ const Header = ({ siteTitle }) => {
     {
       title: "Film Decks",
       external: true,
-      href:
-        "https://drive.google.com/file/d/1TNz-hORp9sYRgGZb5OGMYbIlrm8dRj3h/view",
+      href: "/filmdecks",
     },
     { title: "Podcast", href: "/podcast" },
     { title: "Reviews", href: "/reviews" },
@@ -27,7 +26,7 @@ const Header = ({ siteTitle }) => {
     <StyledHeader>
       <h1 style={{ flexGrow: 1 }}>
         <a onClick={() => setOpenMenu(false)} href="/">
-          Saints Town Prod. LLC
+          Saints Town
         </a>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />

@@ -7,10 +7,10 @@ import { Grid } from "@material-ui/core"
 const ContactPicture = () => {
   return (
     <div>
-      <Grid item xs={12} md={6}>
+      <StyledImgWrapper>
         <img src={imgsrc} style={{ marginBottom: 15 }} />
         {/* <StyledButton to="bio">Learn more</StyledButton> */}
-      </Grid>
+      </StyledImgWrapper>
     </div>
   )
 }

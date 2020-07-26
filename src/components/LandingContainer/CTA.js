@@ -39,9 +39,17 @@ const CTA = () => {
         <Hidden smDown>
           <StyledPaper>
             <h2>My Other Work</h2>
-            <StyledButton outline>Scripting Synopsis</StyledButton>
-            <StyledButton outline> Film Decks</StyledButton>
-            <StyledButton outline> Podcast</StyledButton>
+            <StyledButton href="/synopsis" outline>
+              Scripting Synopsis
+            </StyledButton>
+            <StyledButton href="/filmdecks" outline>
+              {" "}
+              Film Decks
+            </StyledButton>
+            <StyledButton href="/synopsis" outline>
+              {" "}
+              Podcast
+            </StyledButton>
           </StyledPaper>
         </Hidden>
       </Grid>

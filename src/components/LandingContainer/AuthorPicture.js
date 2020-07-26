@@ -52,7 +52,9 @@ const AuthorPicture = () => {
               his life’s work, share his talents and experiences, and bring hope
               to the world through storytelling.
             </p>
-            <StyledButton style={{ float: "right" }}>Read Excerpt</StyledButton>
+            <StyledButton href="/excerpt" style={{ float: "right" }}>
+              Read Excerpt
+            </StyledButton>
           </div>
         </Grid>
       </Grid>
