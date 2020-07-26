@@ -46,7 +46,7 @@ const CTA = () => {
               {" "}
               Film Decks
             </StyledButton>
-            <StyledButton href="/synopsis" outline>
+            <StyledButton href="/podcast" outline>
               {" "}
               Podcast
             </StyledButton>
