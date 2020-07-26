@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import { teal } from "@material-ui/core/colors"
 
 const Header = ({ siteTitle }) => {
   const [openMenu, setOpenMenu] = useState(false)
@@ -11,6 +12,7 @@ const Header = ({ siteTitle }) => {
     { title: "Script Synopsis", href: "/synopsis" },
     {
       title: "Film Decks",
+      external: true,
       href:
         "https://drive.google.com/file/d/1TNz-hORp9sYRgGZb5OGMYbIlrm8dRj3h/view",
     },
@@ -23,19 +25,19 @@ const Header = ({ siteTitle }) => {
 
   return (
     <StyledHeader>
-      <h1>
-        <a
-          onClick={() => setOpenMenu(false)}
-          style={{ color: "#000" }}
-          href="/"
-        >
+      <h1 style={{ flexGrow: 1 }}>
+        <a onClick={() => setOpenMenu(false)} href="/">
           Saints Town Prod. LLC
         </a>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />
       <StyledNav openMenu={openMenu}>
-        {links.map(({ title, href }) => (
-          <a onClick={() => setOpenMenu(false)} href={href}>
+        {links.map(({ title, href, external }) => (
+          <a
+            onClick={() => setOpenMenu(false)}
+            href={href}
+            target={external && "__blank"}
+          >
             {title}
           </a>
         ))}
@@ -48,7 +50,7 @@ const StyledHeader = styled.header`
   width: 100%;
   padding: 15px;
   background: #702663;
-  color: #000;
+  color: #fff;
   display: flex;
   /* justify-content: space-between; */
   i {
@@ -71,7 +73,6 @@ const StyledHeader = styled.header`
     margin: 0;
     a {
       font-family: "Merienda", sans-serif;
-      color: #000;
       text-decoration: none;
     }
   }
@@ -84,7 +85,6 @@ const StyledNav = styled.nav`
   display: flex;
   margin: 0 0 0 15px;
   a {
-    color: #000;
     text-decoration: none;
     text-transform: uppercase;
     opacity: 0.8;

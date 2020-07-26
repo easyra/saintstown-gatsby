@@ -15,7 +15,6 @@ const CTAWrapper = () => {
 export default CTAWrapper
 
 const StyledSection = styled.section`
-  max-width: 1000px;
   width: 100%;
   padding: 15px;
   margin: 15px auto;

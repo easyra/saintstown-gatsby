@@ -1,17 +1,20 @@
 import React from "react"
 import styled from "styled-components"
 import imgsrc from "../../img/family.jpg"
+import StyledPaper from "../@shared/StyledPaper"
 
 const DedicationContainer = () => {
   return (
-    <StyledImgWrapper>
-      <img src={imgsrc} />
-      <h4>In Dedication</h4>
-      <p>
-        To my Dear Future Wife, my legacy and tribe. I love you all madly. Thank
-        you
-      </p>
-    </StyledImgWrapper>
+    <StyledPaper>
+      <StyledImgWrapper>
+        <img src={imgsrc} />
+        <h4>In Dedication</h4>
+        <p>
+          To my Dear Future Wife, my legacy and tribe. I love you all madly.
+          Thank you
+        </p>
+      </StyledImgWrapper>
+    </StyledPaper>
   )
 }
 

@@ -2,14 +2,15 @@ import React from "react"
 import styled from "styled-components"
 import imgsrc from "../../img/contact.jpg"
 import StyledButton from "../@shared/StyledButton"
+import { Grid } from "@material-ui/core"
 
 const ContactPicture = () => {
   return (
     <div>
-      <StyledImgWrapper>
+      <Grid item xs={12} md={6}>
         <img src={imgsrc} style={{ marginBottom: 15 }} />
         {/* <StyledButton to="bio">Learn more</StyledButton> */}
-      </StyledImgWrapper>
+      </Grid>
     </div>
   )
 }

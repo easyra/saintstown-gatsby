@@ -1,20 +1,27 @@
 import React from "react"
 import styled from "styled-components"
 import BooksList from "./ReadingList/BooksList"
+import { Grid } from "@material-ui/core"
+import StyledPaper from "./@shared/StyledPaper"
 
 const ReadingListContainer = () => {
   return (
     <StyledSection>
       <h1>Reading List</h1>
-      <StyledDiv>
-        <BooksList />
-        <p>
-          It has been said that knowledge in and of itself without a change in
-          behaviour is a waste of information. I have learned a lot from many
-          books but these select few are the ones that have shaped my journey
-          for love for self and others.
-        </p>
-      </StyledDiv>
+      <Grid container justify="space-around">
+        <Grid item md={6}>
+          <BooksList />
+        </Grid>
+        <Grid md={6} item>
+          {" "}
+          <StyledPaper>
+            It has been said that knowledge in and of itself without a change in
+            behaviour is a waste of information. I have learned a lot from many
+            books but these select few are the ones that have shaped my journey
+            for love for self and others.
+          </StyledPaper>
+        </Grid>
+      </Grid>
     </StyledSection>
   )
 }

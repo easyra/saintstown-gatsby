@@ -3,7 +3,7 @@ import styled from "styled-components"
 import StyledButton from "./@shared/StyledButton"
 
 const BuyBookBtn = () => {
-  return <StyledButton>Book Drops September 25</StyledButton>
+  return <StyledButton>Buy Soon</StyledButton>
 }
 
 export default BuyBookBtn
