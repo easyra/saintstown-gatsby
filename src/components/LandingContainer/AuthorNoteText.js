@@ -14,6 +14,11 @@ const AuthorNoteText = () => {
           wife each day for seven days.
         </p>
         <p>
+          Each post was a declaration of love to her, and it was written as if
+          they where my last words. I wanted her to SEE me and know what to
+          expect from a love that would never be hidden.
+        </p>
+        <p>
           It is my hope to enlighten you through what I have learned and let you
           see me as I see you. The goal for me is to find my lost rib and put my
           work in by seeking my truth and becoming my most authentic self. My
