@@ -15,7 +15,7 @@ const AuthorNoteText = () => {
         </p>
         <p>
           Each post was a declaration of love to her, and it was written as if
-          they where my last words. I wanted her to SEE me and know what to
+          they were my last words. I wanted her to SEE me and know what to
           expect from a love that would never be hidden.
         </p>
         <p>
