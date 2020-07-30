@@ -9,6 +9,7 @@ export default () => {
     <Layout>
       <StyledPaper style={{ width: 250 }}>
         <h2>Film Decks</h2>
+        <h6>Investments</h6>
         <a
           style={{ color: "#ffff00" }}
           href="https://drive.google.com/file/d/1TNz-hORp9sYRgGZb5OGMYbIlrm8dRj3h/view"
