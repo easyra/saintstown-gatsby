@@ -29,12 +29,6 @@ const ReviewsContainer = () => {
             will not believe that a straight man would write a book talking
             about giving a woman monogamy and LOVE."
           </p>
-
-          <p>
-            "As written, Randall knows, we as women have been hurt and have
-            these walls of defense up out of fear of being hurt again, so while
-            the words sound magical and sultry, they are just that…. “WORDS”."
-          </p>
         </ReviewCard>
       </StyledReviewList>
     </StyledSection>
