@@ -30,6 +30,20 @@ const ReviewsContainer = () => {
             about giving a woman monogamy and LOVE."
           </p>
         </ReviewCard>
+        <ReviewCard
+          author="MICHAEL WARD"
+          title="FOUNDER, GENESIS REVOLUTIONS"
+          review={``}
+        >
+          <p>
+            “Wow, this work is like the chronicles of a Black man’s heart being
+            displayed on the courtship of love as a modern day Song of Solomon.
+            I enjoyed the analogy of relationships to that of basketball. It
+            resonated with me as an enthusiast of the game, I could relate to
+            Randall’s comparisons. A great literature of reflective intimacy by
+            a Black man.”
+          </p>
+        </ReviewCard>
       </StyledReviewList>
     </StyledSection>
   )
