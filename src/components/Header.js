@@ -12,7 +12,6 @@ const Header = ({ siteTitle }) => {
     { title: "Script Synopsis", href: "/synopsis" },
     {
       title: "Film Decks",
-      external: true,
       href: "/filmdecks",
     },
     { title: "Podcast", href: "/podcast" },
