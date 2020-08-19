@@ -12,7 +12,6 @@ const Header = ({ siteTitle }) => {
     { title: "Script Synopsis", href: "/synopsis" },
     {
       title: "Film Decks",
-      external: true,
       href: "/filmdecks",
     },
     { title: "Podcast", href: "/podcast" },
@@ -101,10 +100,10 @@ const StyledNav = styled.nav`
   @media screen and (max-width: 800px) {
     display: ${({ openMenu }) => (openMenu ? "flex" : "none")};
     position: absolute;
-    background: #a60505;
+    background: #702663;
     width: 100%;
     left: 0;
-    top: 70px;
+    top: 60px;
     flex-direction: column;
     margin: 0;
   }

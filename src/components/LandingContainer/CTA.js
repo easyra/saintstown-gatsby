@@ -6,7 +6,7 @@ import CoverPicture from "./CoverPicture"
 import StyledButton from "../@shared/StyledButton"
 import { Paper, Typography, Grid, Hidden } from "@material-ui/core"
 import StyledPaper from "../@shared/StyledPaper"
-import { teal } from "@material-ui/core/colors"
+import { teal, yellow } from "@material-ui/core/colors"
 
 const CTA = () => {
   return (
@@ -20,7 +20,7 @@ const CTA = () => {
             variant="h6"
           >
             Book Drops{" "}
-            <span style={{ fontFamily: "inherit", color: teal["A400"] }}>
+            <span style={{ fontFamily: "inherit", color: yellow["A400"] }}>
               September 25
             </span>
           </h2>

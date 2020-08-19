@@ -1,11 +1,11 @@
 import React from "react"
 import { Paper } from "@material-ui/core"
 
-const StyledPaper = ({ children, style }) => {
+const StyledPaper = ({ children, style, background }) => {
   return (
     <Paper
       style={{
-        background: "#702663",
+        background: background || "#8A1274",
         color: "#fff",
         padding: 15,
         margin: 15,
