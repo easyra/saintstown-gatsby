@@ -21,7 +21,7 @@ const CTA = () => {
           >
             Book Drops{" "}
             <span style={{ fontFamily: "inherit", color: yellow["A400"] }}>
-              September 25
+              October 19th
             </span>
           </h2>
           <div
