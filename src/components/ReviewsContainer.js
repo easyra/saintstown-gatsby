@@ -44,6 +44,23 @@ const ReviewsContainer = () => {
             a Black man.”
           </p>
         </ReviewCard>
+        <ReviewCard
+          author="Tanayi Seabrook"
+          title="Emmy Award Winning Producer/Actress/Mother"
+          review={``}
+        >
+          <p>
+            Thank you Randall Courtland for A Piece of Me! You share so many
+            nuggets of insight not just into your inner world, but the inner
+            world of men, Black men in particular. This is a brave and
+            courageous book. It is rare for a Black man to open up this way and
+            share not only a deep longing for an intimate committed
+            relationship, but you share reflections from your life. Most of all
+            you share your humanity. I genuinely believe this is one way we
+            begin to heal as people. Beautiful! Put this at the top of reviews
+            thanks
+          </p>
+        </ReviewCard>
       </StyledReviewList>
     </StyledSection>
   )
