@@ -61,6 +61,20 @@ const ReviewsContainer = () => {
             thanks
           </p>
         </ReviewCard>
+        <ReviewCard
+          author="Aristean Davis"
+          title="Retired Chief Officer - US Department of Records and Author’s Mom"
+          review={``}
+        >
+          <p>
+            This is a “MUST READ.” It opened my eyes and offered some rich
+            pearls of wisdom to relationships, and I have been married happily
+            for 57 years. His personal journey from the dark side of love to a
+            transformation by the renewing of the mind was fascinating.
+            Randall’s discovery to seek real love through communication and
+            commitment and Christ speaks to a journey for all men.
+          </p>
+        </ReviewCard>
       </StyledReviewList>
     </StyledSection>
   )
