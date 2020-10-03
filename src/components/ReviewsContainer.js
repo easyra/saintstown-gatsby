@@ -71,7 +71,7 @@ const ReviewsContainer = () => {
             pearls of wisdom to relationships, and I have been married happily
             for 57 years. His personal journey from the dark side of love to a
             transformation by the renewing of the mind was fascinating.
-            Randall’s discovery to seek real love through communication and
+            Randall’s discovery to seek real love through communication,
             commitment and Christ speaks to a journey for all men.
           </p>
         </ReviewCard>

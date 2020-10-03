@@ -38,7 +38,7 @@ const CTA = () => {
         </StyledPaper>
         <Hidden smDown>
           <StyledPaper>
-            <h2>My Other Work</h2>
+            <h2>Love Stories By Us For Us</h2>
             <StyledButton href="/synopsis" outline>
               Scripting Synopsis
             </StyledButton>

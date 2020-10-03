@@ -6,7 +6,7 @@ const ExcerptContainer = () => {
   return (
     <StyledSection>
       <StyledTitleWrapper>
-        <h1>Dear Future Wife</h1>
+        <h1>A Peace of Me</h1>
       </StyledTitleWrapper>
 
       <ExcerptText />
