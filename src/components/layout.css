@@ -373,3 +373,12 @@ h5,
 h6 {
   font-family: "Merienda", sans-serif;
 }
+
+bold {
+  font-weight: bold;
+}
+
+i {
+  display: block;
+  text-align: center;
+}
