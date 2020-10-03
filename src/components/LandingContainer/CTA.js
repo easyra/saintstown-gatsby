@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import BuyBookBtn from "../BuyBookBtn"
 import CoverPicture from "./CoverPicture"
 import StyledButton from "../@shared/StyledButton"
-import { Paper, Typography, Grid, Hidden } from "@material-ui/core"
+import { Paper, Typography, Grid, Hidden, Button } from "@material-ui/core"
 import StyledPaper from "../@shared/StyledPaper"
 import { teal, yellow } from "@material-ui/core/colors"
 
@@ -13,6 +13,24 @@ const CTA = () => {
     <Grid container justify="center">
       <CoverPicture />
       <Grid item xs={12} md={3}>
+        <StyledPaper>
+          <h2>Love Stories By Us For Us</h2>
+          <p>
+            Our first film project, Love Déjà vu, is one of these stories.
+            Imagine in 1942, you walk into a Harlem bar and make the wrong
+            decision regarding love. The same bar thirty years later, your
+            spirit relives that scenario in a different body, only to make the
+            wrong decision a gain. Another thirty years pass and in the exact
+            same bar, with the exact same gathering of spirits, you finally get
+            it right.
+          </p>
+          <StyledButton
+            style={{ marginLeft: "auto" }}
+            href="https://gf.me/u/y3krss"
+          >
+            View Fundraiser
+          </StyledButton>
+        </StyledPaper>
         <StyledPaper style={{ margin: 15, textAlign: "center" }}>
           <h2
             gutterBottom
@@ -33,25 +51,11 @@ const CTA = () => {
             }}
           >
             {/* <BuyBookBtn /> */}
-            <StyledButton href="/excerpt">Read Excerpt</StyledButton>
+            <StyledButton outline href="/excerpt">
+              Read Excerpt
+            </StyledButton>
           </div>
         </StyledPaper>
-        <Hidden smDown>
-          <StyledPaper>
-            <h2>Love Stories By Us For Us</h2>
-            <StyledButton href="/synopsis" outline>
-              Scripting Synopsis
-            </StyledButton>
-            <StyledButton href="/filmdecks" outline>
-              {" "}
-              Film Decks
-            </StyledButton>
-            <StyledButton href="/podcast" outline>
-              {" "}
-              Podcast
-            </StyledButton>
-          </StyledPaper>
-        </Hidden>
       </Grid>
     </Grid>
   )

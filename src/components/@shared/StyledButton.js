@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const StyledButton = ({ children, href = "", outline, style }) => {
   return (
-    <a href={href}>
+    <a href={href} target="__blank">
       {outline && (
         <StyledButtonOutline style={{ ...style }}>
           {children}
