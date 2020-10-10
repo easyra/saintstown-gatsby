@@ -28,7 +28,7 @@ const CTA = () => {
             style={{ marginLeft: "auto" }}
             href="https://gf.me/u/y3krss"
           >
-            View Fundraiser
+            Go Fund Me
           </StyledButton>
         </StyledPaper>
         <StyledPaper style={{ margin: 15, textAlign: "center" }}>

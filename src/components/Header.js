@@ -9,6 +9,7 @@ const Header = ({ siteTitle }) => {
     setOpenMenu(!openMenu)
   }
   const links = [
+    { title: "About", href: "/about" },
     { title: "Script Synopsis", href: "/synopsis" },
     {
       title: "Film Decks",

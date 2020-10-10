@@ -8,10 +8,10 @@ const AuthorNoteText = () => {
       <StyledText>
         <h2>Dear Reader & Future Wife</h2>
         <p>
-          I wrote this book for my commitment to Black Love and the fight to
-          preserve it through my recent love journey. This particular journey
-          started in 2016, when I began posting on Facebook addressing my future
-          wife each day for seven days.
+          I wrote my book, A Peace of Me, for my commitment to Black Love and
+          the fight to preserve it through my recent love journey. This
+          particular journey started in 2016, when I began posting on Facebook
+          addressing my future wife each day for seven days.
         </p>
         <p>
           Each post was a declaration of love to her, and it was written as if
