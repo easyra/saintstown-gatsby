@@ -75,6 +75,21 @@ const ReviewsContainer = () => {
             commitment and Christ speaks to a journey for all men.
           </p>
         </ReviewCard>
+        <ReviewCard
+          author="Kennard L. Jones"
+          title="Circuit Attorney"
+          review={``}
+        >
+          <p>
+            Reading A Peace of Me, Randall’s perceptive awareness is
+            well-grounded and vibrates with wise love. Not unlike flowers. And
+            yes, as trees; rooted in soils of eternity. Fed by ethereal rivers
+            of living, Randall's expressions of sincerity breathe light into
+            contemplations of all who want to know. Of his spirit and through
+            his mind, a voice of reason speaks to what may be essential for
+            lasting unity.
+          </p>
+        </ReviewCard>
       </StyledReviewList>
     </StyledSection>
   )
