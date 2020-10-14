@@ -50,7 +50,7 @@ const ReviewsContainer = () => {
           review={``}
         >
           <p>
-            Thank you Randall Courtland for A Piece of Me! You share so many
+            Thank you Randall Courtland for A Peace of Me! You share so many
             nuggets of insight not just into your inner world, but the inner
             world of men, Black men in particular. This is a brave and
             courageous book. It is rare for a Black man to open up this way and
@@ -89,6 +89,13 @@ const ReviewsContainer = () => {
             his mind, a voice of reason speaks to what may be essential for
             lasting unity.
           </p>
+        </ReviewCard>
+        <ReviewCard
+        author='Veronda Mischeaux Pierson'
+        title='Children and Family Support Profession/Business Owner'
+        
+        >
+          <p>Randall's beautifully written perspectives, sincerity, vulnerabilities, and most importantly his unmitigated TRUTHS as a Black man seeking a higher love, we now have direct, foundational insights from the source by which Black Love is anchored, a Black man! THANK YOU for being vulnerable enough to share your life's experiences through A Peace of Me, and for caring enough to provide a blueprint for successfully navigating our complexities.  His words resonate in spaces reserved for the exaltation of Black Love everywhere...</p>
         </ReviewCard>
       </StyledReviewList>
     </StyledSection>

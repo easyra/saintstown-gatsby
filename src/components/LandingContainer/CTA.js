@@ -13,25 +13,7 @@ const CTA = () => {
     <Grid container justify="center">
       <CoverPicture />
       <Grid item xs={12} md={3}>
-        <StyledPaper>
-          <h2>Love Stories By Us For Us</h2>
-          <p>
-            Our first film project, Love Déjà vu, is one of these stories.
-            Imagine in 1942, you walk into a Harlem bar and make the wrong
-            decision regarding love. The same bar thirty years later, your
-            spirit relives that scenario in a different body, only to make the
-            wrong decision a gain. Another thirty years pass and in the exact
-            same bar, with the exact same gathering of spirits, you finally get
-            it right.
-          </p>
-          <StyledButton
-            style={{ marginLeft: "auto" }}
-            href="https://gf.me/u/y3krss"
-          >
-            Go Fund Me
-          </StyledButton>
-        </StyledPaper>
-        <StyledPaper style={{ margin: 15, textAlign: "center" }}>
+      <StyledPaper style={{ margin: 15, textAlign: "center" }}>
           <h2
             gutterBottom
             style={{ fontFamily: "Merienda, sans-serif" }}
@@ -56,6 +38,25 @@ const CTA = () => {
             </StyledButton>
           </div>
         </StyledPaper>
+        <StyledPaper>
+          <h2>Love Stories By Us For Us</h2>
+          <p>
+            Our first film project, Love Déjà vu, is one of these stories.
+            Imagine in 1942, you walk into a Harlem bar and make the wrong
+            decision regarding love. The same bar thirty years later, your
+            spirit relives that scenario in a different body, only to make the
+            wrong decision a gain. Another thirty years pass and in the exact
+            same bar, with the exact same gathering of spirits, you finally get
+            it right.
+          </p>
+          <StyledButton
+            style={{ marginLeft: "auto" }}
+            href="https://gf.me/u/y3krss"
+          >
+            Go Fund Me
+          </StyledButton>
+        </StyledPaper>
+        
       </Grid>
     </Grid>
   )
