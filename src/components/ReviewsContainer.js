@@ -50,15 +50,7 @@ const ReviewsContainer = () => {
           review={``}
         >
           <p>
-            Thank you Randall Courtland for A Peace of Me! You share so many
-            nuggets of insight not just into your inner world, but the inner
-            world of men, Black men in particular. This is a brave and
-            courageous book. It is rare for a Black man to open up this way and
-            share not only a deep longing for an intimate committed
-            relationship, but you share reflections from your life. Most of all
-            you share your humanity. I genuinely believe this is one way we
-            begin to heal as people. Beautiful! Put this at the top of reviews
-            thanks
+          “A Peace of Me is a brave and courageous book! It is rare for a Black man to open up this way and share not only a deep longing for an intimate committed relationship, but you share reflections from your life. Most of all you share your humanity. I genuinely believe this is one way we begin to heal as people.  Beautiful!”
           </p>
         </ReviewCard>
         <ReviewCard
@@ -67,12 +59,12 @@ const ReviewsContainer = () => {
           review={``}
         >
           <p>
-            This is a “MUST READ.” It opened my eyes and offered some rich
+            "This is a “MUST READ.” It opened my eyes and offered some rich
             pearls of wisdom to relationships, and I have been married happily
             for 57 years. His personal journey from the dark side of love to a
             transformation by the renewing of the mind was fascinating.
             Randall’s discovery to seek real love through communication,
-            commitment and Christ speaks to a journey for all men.
+            commitment and Christ speaks to a journey for all men."
           </p>
         </ReviewCard>
         <ReviewCard
@@ -81,13 +73,7 @@ const ReviewsContainer = () => {
           review={``}
         >
           <p>
-            Reading A Peace of Me, Randall’s perceptive awareness is
-            well-grounded and vibrates with wise love. Not unlike flowers. And
-            yes, as trees; rooted in soils of eternity. Fed by ethereal rivers
-            of living, Randall's expressions of sincerity breathe light into
-            contemplations of all who want to know. Of his spirit and through
-            his mind, a voice of reason speaks to what may be essential for
-            lasting unity.
+          “In A Peace of Me, the author’s perceptive awareness is well-grounded and vibrates with wise love. His expressions of sincerity breathe light into contemplations of all who want to know. Of his spirit and through his mind, a voice of reason speaks to what may be essential for lasting unity.” 
           </p>
         </ReviewCard>
         <ReviewCard
@@ -95,7 +81,7 @@ const ReviewsContainer = () => {
         title='Children and Family Support Profession/Business Owner'
         
         >
-          <p>Randall's beautifully written perspectives, sincerity, vulnerabilities, and most importantly his unmitigated TRUTHS as a Black man seeking a higher love, we now have direct, foundational insights from the source by which Black Love is anchored, a Black man! THANK YOU for being vulnerable enough to share your life's experiences through A Peace of Me, and for caring enough to provide a blueprint for successfully navigating our complexities.  His words resonate in spaces reserved for the exaltation of Black Love everywhere...</p>
+          <p>"Thank you for being vulnerable enough to share your life's experiences through A Peace of Me, and for caring enough to provide a blueprint for successfully navigating our complexities. Your words resonate in spaces reserved for the exaltation of Black Love everywhere.”</p>
         </ReviewCard>
       </StyledReviewList>
     </StyledSection>
