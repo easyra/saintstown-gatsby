@@ -6,7 +6,7 @@ const BioContainer = () => {
     <StyledSection style={{ maxWidth: 500 }}>
       <h1>Randall Courtland Davis</h1>
       <p>
-        Randall Courtland Davis is a graduate of Clark Atlanta University with a
+        Randall Courtland Davis attended Clark Atlanta University with a
         major in Public Relations and a minor in Theater Arts. He obtained a job
         in International Marketing at Warner Brothers upon graduation. He was
         soon promoted into television and film production working as second
