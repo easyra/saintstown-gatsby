@@ -15,7 +15,7 @@ const AuthorPicture = () => {
           </div>
         </Grid>
         <Grid item md={4} xs={12}>
-          <h2 style={{ margin: "5px 0 0px" }}>Meet The Author:</h2>{" "}
+          <h2 style={{ margin: "5px 0 0px" }}>Meet The Writer:</h2>{" "}
           <div style={{ margin: "0 8px" }}>
             <p>
               <span style={{ fontWeight: "bold" }}>
