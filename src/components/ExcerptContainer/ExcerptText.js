@@ -4,11 +4,11 @@ const ExcerptText = () => {
   return (
     <div>
       <p>
-        <bold>
+        <i>
           You will be amazed at how things fall into place after letting go of
           past hurts and pain, attachments, false expectations and fear; as we
           learn to wait on Spirit as Abraham did.
-        </bold>
+        </i>
       </p>
       <p>
         I remember when I would get my hair plaited and then twisted to make a

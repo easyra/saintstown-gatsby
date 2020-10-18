@@ -21,7 +21,7 @@ const AuthorPicture = () => {
               <span style={{ fontWeight: "bold" }}>
                 Randall Courtland Davis
               </span>{" "}
-              is a graduate of Clark Atlanta University with a major in Public
+              attended Clark Atlanta University with a major in Public
               Relations and a minor in Theater Arts. He obtained a job in
               International Marketing at Warner Brothers upon graduation. He was
               soon promoted into television and film production working as
