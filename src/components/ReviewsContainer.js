@@ -2,9 +2,11 @@ import React from "react"
 import styled from "styled-components"
 import ReviewCard from "./ReviewsContaienr/ReviewCard"
 import StyledSection from "./@shared/StyledSection"
+import CTA from './LandingContainer/CTA.js'
 
 const ReviewsContainer = () => {
   return (
+    <>
     <StyledSection style={{ width: "80%" }}>
       <h1>Book Reviews</h1>
       <StyledReviewList>
@@ -44,7 +46,7 @@ const ReviewsContainer = () => {
             a Black man.”
           </p>
         </ReviewCard>
-        <ReviewCard
+        {/* <ReviewCard
           author="Tanayi Seabrook"
           title="Emmy Award Winning Producer/Actress/Mother"
           review={``}
@@ -52,7 +54,7 @@ const ReviewsContainer = () => {
           <p>
           “A Peace of Me is a brave and courageous book! It is rare for a Black man to open up this way and share not only a deep longing for an intimate committed relationship, but you share reflections from your life. Most of all you share your humanity. I genuinely believe this is one way we begin to heal as people.  Beautiful!”
           </p>
-        </ReviewCard>
+        </ReviewCard> */}
         <ReviewCard
           author="Aristean Davis"
           title="Retired Chief Officer - US Department of Records and Author’s Mom"
@@ -67,7 +69,7 @@ const ReviewsContainer = () => {
             commitment and Christ speaks to a journey for all men."
           </p>
         </ReviewCard>
-        <ReviewCard
+        {/* <ReviewCard
           author="Kennard L. Jones"
           title="Circuit Attorney"
           review={``}
@@ -82,9 +84,13 @@ const ReviewsContainer = () => {
         
         >
           <p>"Thank you for being vulnerable enough to share your life's experiences through A Peace of Me, and for caring enough to provide a blueprint for successfully navigating our complexities. Your words resonate in spaces reserved for the exaltation of Black Love everywhere.”</p>
-        </ReviewCard>
+        </ReviewCard> */}
       </StyledReviewList>
-    </StyledSection>
+      
+    </StyledSection><div style={{maxWidth:500}}>
+          <CTA/>
+      </div>
+    </>
   )
 }
 

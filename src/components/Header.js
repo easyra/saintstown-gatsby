@@ -9,14 +9,14 @@ const Header = ({ siteTitle }) => {
     setOpenMenu(!openMenu)
   }
   const links = [
-    { title: "About", href: "/about" },
-    { title: "Script Synopsis", href: "/synopsis" },
-    {
+    { title: "About", href: "/about" }, { title: "Books", href: "/reviews" }, { title: "Shop", href: "/reviews" }, {
       title: "Film Decks",
       href: "/filmdecks",
     },
-    { title: "Podcast", href: "/podcast" },
-    { title: "Reviews", href: "/reviews" },
+    { title: "Script Synopsis", href: "/synopsis" },
+
+    // { title: "Podcast", href: "/podcast" },
+
     { title: "Reading List", href: "/readinglist" },
     // { title: "Interviews", href: "/interviews" },
     { title: "Contact", href: "/contact" },

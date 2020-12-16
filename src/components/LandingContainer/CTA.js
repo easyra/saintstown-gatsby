@@ -14,16 +14,15 @@ const CTA = () => {
       <CoverPicture />
       <Grid item xs={12} md={3}>
       <StyledPaper style={{ margin: 15, textAlign: "center" }}>
-          <h2
+        
+          {/* <h2`
             gutterBottom
             style={{ fontFamily: "Merienda, sans-serif" }}
             variant="h6"
           >
-            Pre-Order{" "}
-            <span style={{ fontFamily: "inherit", color: "#DEB866" }}>
-              Now
-            </span>
-          </h2>
+            A Peace of Me
+          </h2>` */}
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris imperdiet at urna vel malesuada. Pellentesque placerat odio hendrerit ipsum eleifend faucibus.</p>
           <div
             style={{
               display: "flex",
@@ -33,8 +32,8 @@ const CTA = () => {
             }}
           >
             {/* <BuyBookBtn /> */}
-            <StyledButton href="/excerpt">
-              Read Excerpt
+            <StyledButton href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ralaez%2e89%40gmail%2ecom&lc=US&item_name=A%20Peace%20of%20Me%28Pre%2dorder%29&item_number=001&amount=20%2e00&currency_code=USD&button_subtype=services&shipping=5%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">
+              Pre-Order Now
             </StyledButton>
           </div>
         </StyledPaper>

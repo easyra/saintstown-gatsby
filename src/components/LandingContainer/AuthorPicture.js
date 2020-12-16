@@ -15,13 +15,13 @@ const AuthorPicture = () => {
           </div>
         </Grid>
         <Grid item md={4} xs={12}>
-          <h2 style={{ margin: "5px 0 0px" }}>Meet The Writer:</h2>{" "}
+          <h2 style={{ margin: "5px 0 0px" }}>Meet The Founder:</h2>{" "}
           <div style={{ margin: "0 8px" }}>
             <p>
               <span style={{ fontWeight: "bold" }}>
                 Randall Courtland Davis
               </span>{" "}
-              attended Clark Atlanta University with a major in Public
+              is a prolific writer, content creator, author, and actor and activist. He attended Clark Atlanta University with a major in Public
               Relations and a minor in Theater Arts. He obtained a job in
               International Marketing at Warner Brothers upon graduation. He was
               soon promoted into television and film production working as
@@ -43,8 +43,7 @@ const AuthorPicture = () => {
               being a single father to three young children, now young adults.
             </p>
             <p>
-              Randall is a prolific writer, a storyteller, an author, and an
-              activist. He has written six features films, including a musical,
+              Davis has written six features films, including a musical,
               and countless other ideas and projects in the vault. He has
               written two stage plays, a short film, and three original
               television pilots; a sitcom and two hour-long dramas. He now looks
