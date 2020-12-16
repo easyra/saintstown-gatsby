@@ -26,7 +26,7 @@ const StyledButtonWrapper = styled.button`
   margin: 5px;
   padding: 10px;
   text-align: center;
-  background: #ffff00;
+  background: #DEB866;
   color: #000;
   border: none;
   border-radius: 4px;
@@ -41,8 +41,8 @@ const StyledButtonOutline = styled.button`
   margin: 5px;
   padding: 6px;
   text-align: center;
-  color: #ffff00;
-  border: 2px solid #ffff00;
+  color: #DEB866;
+  border: 2px solid #DEB866;
   border-radius: 4px;
   font-weight: bold;
   font-size: 1rem;

@@ -19,9 +19,9 @@ const CTA = () => {
             style={{ fontFamily: "Merienda, sans-serif" }}
             variant="h6"
           >
-            Book Drops{" "}
-            <span style={{ fontFamily: "inherit", color: yellow["A400"] }}>
-              Soon
+            Pre-Order{" "}
+            <span style={{ fontFamily: "inherit", color: "#DEB866" }}>
+              Now
             </span>
           </h2>
           <div
@@ -33,12 +33,12 @@ const CTA = () => {
             }}
           >
             {/* <BuyBookBtn /> */}
-            <StyledButton outline href="/excerpt">
+            <StyledButton href="/excerpt">
               Read Excerpt
             </StyledButton>
           </div>
         </StyledPaper>
-        <StyledPaper>
+        {/* <StyledPaper>
           <h2>Love Stories By Us For Us</h2>
           <p>
             Our first film project, Love Déjà vu, is one of these stories.
@@ -55,7 +55,7 @@ const CTA = () => {
           >
             Go Fund Me
           </StyledButton>
-        </StyledPaper>
+        </StyledPaper> */}
         
       </Grid>
     </Grid>

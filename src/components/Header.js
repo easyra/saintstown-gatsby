@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => {
     { title: "Podcast", href: "/podcast" },
     { title: "Reviews", href: "/reviews" },
     { title: "Reading List", href: "/readinglist" },
-    { title: "Interviews", href: "/interviews" },
+    // { title: "Interviews", href: "/interviews" },
     { title: "Contact", href: "/contact" },
   ]
 
@@ -48,7 +48,7 @@ const Header = ({ siteTitle }) => {
 const StyledHeader = styled.header`
   width: 100%;
   padding: 15px;
-  background: #702663;
+  background: #2C2A2C;
   color: #fff;
   display: flex;
   /* justify-content: space-between; */
@@ -101,7 +101,7 @@ const StyledNav = styled.nav`
   @media screen and (max-width: 800px) {
     display: ${({ openMenu }) => (openMenu ? "flex" : "none")};
     position: absolute;
-    background: #702663;
+    background: ##2C2A2C;
     width: 100%;
     left: 0;
     top: 60px;

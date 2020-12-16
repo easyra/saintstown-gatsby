@@ -5,7 +5,7 @@ const StyledPaper = ({ children, style, background }) => {
   return (
     <Paper
       style={{
-        background: background || "#8A1274",
+        background: background || "#2C2A2C",
         color: "#fff",
         padding: 15,
         margin: 15,
