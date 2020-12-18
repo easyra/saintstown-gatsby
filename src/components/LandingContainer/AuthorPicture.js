@@ -21,7 +21,7 @@ const AuthorPicture = () => {
               <span style={{ fontWeight: "bold" }}>
                 Randall Courtland Davis
               </span>{" "}
-              is a prolific writer, content creator, author, and actor and activist. He attended Clark Atlanta University with a major in Public
+              is a prolific writer, content creator, author, actor and activist. He attended Clark Atlanta University with a major in Public
               Relations and a minor in Theater Arts. He obtained a job in
               International Marketing at Warner Brothers upon graduation. He was
               soon promoted into television and film production working as

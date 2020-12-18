@@ -10,14 +10,14 @@ export default () => {
         <p>
           Saints town is a production company that provides a host of written feature
           films, original television pilot series, stage plays and books that
-          serve to uplift the community with stories by us for everyone. We tell
-          stories inspired by my love for Black people, my people, which
+          serve to uplift the Black community with stories by us for everyone. We tell
+          stories inspired by our love for Black people, our people, which
           authentically express the multi-faceted experiences of our
           communities. When we look around we seldom see our stories told
-          accurately, or hear my voice in the Black characters on screen. The
+          accurately, or hear our voice in the Black characters on screen. The
           disservice done to our communities and culture by the often
           one-dimensional and negatively stereotypical portrayals of Black
-          people on stage and in film and television has driven me to create
+          people on stage and in film and television has driven us to create
           content that will uplift, educate and inspire. Randall Davis is the founder of
           Saints Town Production LLC, named in honor of his home town of St.
           Louis, Missouri. Our mission is to produce content depicting the
