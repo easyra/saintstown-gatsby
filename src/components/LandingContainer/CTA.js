@@ -10,7 +10,7 @@ import { teal, yellow } from "@material-ui/core/colors"
 
 const CTA = () => {
   return (
-    <Grid container justify="center">
+    <Grid container justify="center" alignItems='center'>
       <CoverPicture />
       <Grid item xs={12} md={3}>
       <StyledPaper style={{ margin: 15, textAlign: "center" }}>

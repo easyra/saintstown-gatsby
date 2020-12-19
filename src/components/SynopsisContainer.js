@@ -30,13 +30,13 @@ const SynopsisContainer = () => {
             <Grid item md={3} sm={6} xs={12}>
               <List
                 style={{
-                  background: "#CF25AF",
+                  background: "#DEB866",
                   color: "#fff",
                   padding: 0,
                   margin: "25px",
                 }}
               >
-                <AppBar position="static" style={{ background: "#702663" }}>
+                <AppBar position="static" style={{ background: "#2C2A2C" }}>
                   <Toolbar>
                     <Typography
                       style={{ fontFamily: '"Merienda", sans-serif' }}

@@ -87,7 +87,7 @@ const ReviewsContainer = () => {
         </ReviewCard> */}
       </StyledReviewList>
       
-    </StyledSection><div style={{maxWidth:500}}>
+    </StyledSection><div >
           <CTA/>
       </div>
     </>

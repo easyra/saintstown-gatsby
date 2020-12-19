@@ -52,7 +52,7 @@ const AuthorPicture = () => {
               to the world through storytelling.
             </p>
             <StyledButton href="/excerpt" style={{ float: "right" }}>
-              Read Excerpt
+              Subscribe
             </StyledButton>
           </div>
         </Grid>

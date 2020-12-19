@@ -26,7 +26,7 @@ const StyledButtonWrapper = styled.button`
   margin: 5px;
   padding: 10px;
   text-align: center;
-  background: #DEB866;
+  background: #F2CA16;
   color: #000;
   border: none;
   border-radius: 4px;

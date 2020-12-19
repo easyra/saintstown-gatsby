@@ -21,7 +21,7 @@ const SynopsisList = ({ title, text }) => {
       <ListItem
         button
         onClick={handleClick}
-        style={{ background: "#8A1274", color: "#fff" }}
+        style={{ background: "#2C2A2C", color: "#fff" }}
       >
         <ListItemText primary={title} />
         {open ? <ExpandLess /> : <ExpandMore />}
