@@ -22,7 +22,7 @@ const CTA = () => {
           >
             A Peace of Me
           </h2>` */}
-          <p>Pre-order now for a autographed copy of my new book, "A Peace of Me: A Black Man's Journey to Love and Commitment."</p>
+          <p>Pre-order now for a autographed copy of my new book, "A Peace of Me: A Black Man's Journey to Love and Commitment. "</p>
           <div
             style={{
               display: "flex",

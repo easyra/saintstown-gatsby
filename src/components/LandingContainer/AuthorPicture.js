@@ -51,7 +51,7 @@ const AuthorPicture = () => {
               his life’s work, share his talents and experiences, and bring hope
               to the world through storytelling.
             </p>
-            <StyledButton href="/excerpt" style={{ float: "right" }}>
+            <StyledButton  href="https://docs.google.com/forms/u/5/d/1sr3Qbdf2FjgLt6_op1y0sgSyZqEwgOcv8ewBJRQqM7A/edit?usp=forms_home&ths=true" style={{ float: "right" }}>
               Subscribe
             </StyledButton>
           </div>
