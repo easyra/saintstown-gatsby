@@ -22,7 +22,7 @@ const CTA = () => {
           >
             A Peace of Me
           </h2>` */}
-          <p>Pre-order now for a autographed copy of my new book, "A Peace of Me: A Black Man's Journey to Love and Commitment. "</p>
+          <p>Buy today for an autographed copy of my new book, "A Peace of Me: A Black Man's Journey to Love and Commitment. "</p>
           <div
             style={{
               display: "flex",
@@ -33,7 +33,7 @@ const CTA = () => {
           >
             {/* <BuyBookBtn /> */}
             <StyledButton href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ralaez%2e89%40gmail%2ecom&lc=US&item_name=A%20Peace%20of%20Me%28Pre%2dorder%29&item_number=001&amount=20%2e00&currency_code=USD&button_subtype=services&shipping=5%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">
-              Pre-Order Now
+              Buy Now
             </StyledButton>
           </div>
         </StyledPaper>
