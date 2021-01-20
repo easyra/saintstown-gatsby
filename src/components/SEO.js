@@ -6,8 +6,8 @@ import imgsrc from "../img/author.jpg"
 const SEO = () => {
   const title = "Randall Courtland Davis | A Peace of Me"
   const description =
-    "Randall Courtland Davis is a writer/actor in the LA area. Randall Courtland Davis's newest book is A Peace of Me. You can buy the book A Peace of Me by Randall Courtland Davis from this site. If the work by Randall Courtland Davis is interesting you, make sure to come back to saintstown.com for updates."
-  const url = "https://saintstown.com/"
+    "Randall Courtland Davis is a writer/actor in the LA area. Randall Courtland Davis's newest book is A Peace of Me. You can buy the book A Peace of Me by Randall Courtland Davis from this site. If the work by Randall Courtland Davis is interesting you, make sure to come back to RandallCDavis.com for updates."
+  const url = "https://RandallCDavis.com/"
   const image = imgsrc
   return (
     <Helmet>

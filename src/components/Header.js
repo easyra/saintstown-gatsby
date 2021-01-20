@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => {
     <StyledHeader>
       <h1 style={{ flexGrow: 1 }}>
         <a onClick={() => setOpenMenu(false)} href="/">
-          Saints Town
+          Saint Town
         </a>
       </h1>
       <i onClick={handleClick} className="fas fa-bars fa-2x" />
