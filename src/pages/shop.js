@@ -51,11 +51,11 @@ export default () => {
                     <img onClick={handleClick} src={shirtArr[pointer]} style={{ width: '100%', minWidth: 250, maxWidth: 750, padding: 25, height: 750 , objectFit:'contain', cursor:'pointer'}} />
                     <Grid container justify='center'>
                         <Grid item>
-                              <IconButton>
-                            <NavigateBeforeIcon onClick={() => handleClick(false)} />
+                              <IconButton onClick={() => handleClick(false)}>
+                            <NavigateBeforeIcon  />
                         </IconButton>
-                        <IconButton>
-                            <NavigateNextIcon onClick={() => handleClick(true)} />
+                        <IconButton onClick={() => handleClick(true)} >
+                            <NavigateNextIcon/>
                         </IconButton>
                         </Grid>
                       
