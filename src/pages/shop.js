@@ -16,13 +16,14 @@ import shirt08 from '../img/shirt08.jpg'
 import shirt09 from '../img/shirt09.jpg'
 import shirt10 from '../img/shirt10.jpg'
 import shirt11 from '../img/shirt11.jpg'
+import shirt12 from '../img/shirt12.jpg'
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
 
 export default () => {
     const [pointer, setPointer] = useState(0)
-    const shirtArr = [shirt01,shirt09,shirt10,shirt11, shirt02,shirt08, shirt03, shirt04, shirt05, shirt06, ]
+    const shirtArr = [shirt01,shirt12,shirt09,shirt10,shirt11, shirt02,shirt08, shirt03, shirt04, shirt05, shirt06, ]
     const handleClick = (inc = 1) => {
         setPointer(state => {
             if (inc) {
