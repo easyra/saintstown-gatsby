@@ -17,13 +17,17 @@ import shirt09 from '../img/shirt09.jpg'
 import shirt10 from '../img/shirt10.jpg'
 import shirt11 from '../img/shirt11.jpg'
 import shirt12 from '../img/shirt12.jpg'
+import shirt13 from '../img/shirt13.jpg'
+import shirt14 from '../img/shirt14.jpg'
+import shirt15 from '../img/shirt15.jpg'
+import shirt16 from '../img/shirt16.jpg'
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 
 
 export default () => {
     const [pointer, setPointer] = useState(0)
-    const shirtArr = [shirt01,shirt12,shirt09,shirt10,shirt11, shirt02,shirt08, shirt03, shirt04, shirt05, shirt06, ]
+    const shirtArr = [shirt01,shirt12,shirt13,shirt09,shirt10,shirt11, shirt02,shirt08, shirt03, shirt04, shirt05, shirt06,shirt14,shirt15,shirt16 ]
     const handleClick = (inc = 1) => {
         setPointer(state => {
             if (inc) {
@@ -75,6 +79,9 @@ export default () => {
                         <StyledPaper style={{ width: 'min-content', margin: ' 15px auto', padding: '15px' }}>
                             <HoodieButton />
                         </StyledPaper>
+                        <StyledPaper style={{ width: 'min-content', margin: ' 15px auto', padding: '15px' }}>
+                            <HatsButton />
+                        </StyledPaper>
                         {/* <StyledPaper style={{ ma */}
                     </Grid>
 
@@ -89,21 +96,21 @@ export default () => {
 
 const HatsButton = () => (
     <>
-        <h3 style={{ textAlign: 'center' }}>Hats</h3 >
-
+    <h3 style={{ textAlign: 'center' }}>Hats</h3 >
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" defaultValue="_s-xclick" />
-            <table>
-                <tbody><tr><td><input type="hidden" name="on0" defaultValue="Color" />Color</td></tr><tr><td><select name="os0">
-                    <option value="Camoflauge">Camoflauge </option>
-                    <option value="Black">Black </option>
-                    <option value="Gray">Gray </option>
-                </select> </td></tr>
-                </tbody></table>
-            <input type="hidden" name="encrypted" defaultValue="-----BEGIN PKCS7-----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-----END PKCS7-----" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border={0} name="submit" alt="PayPal - The safer, easier way to pay online!" />
-            <img alt border={0} src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width={1} height={1} />
-        </form>
+  <input type="hidden" name="cmd" defaultValue="_s-xclick" />
+  <table>
+    <tbody><tr><td><input type="hidden" name="on0" defaultValue="Colors" />Colors</td></tr><tr><td><select name="os0">
+            <option value="Camo Green">Camo Green </option>
+            <option value="Black">Black </option>
+            <option value="Gray">Gray </option>
+          </select> </td></tr>
+    </tbody></table>
+  <input type="hidden" name="encrypted" defaultValue="-----BEGIN PKCS7-----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-----END PKCS7-----" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border={0} name="submit" alt="PayPal - The safer, easier way to pay online!" />
+  <img alt border={0} src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width={1} height={1} />
+</form>
+
 
 
     </>
