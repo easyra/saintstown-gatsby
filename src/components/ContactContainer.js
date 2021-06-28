@@ -8,8 +8,16 @@ const ContactContainer = () => {
     <StyledDiv>
       <h1>Email Me Here</h1>
       <h4>ralaez.89@gmail.com</h4>
-      <ContactForm />
-      <ContactPicture />
+      <iframe
+  src="https://docs.google.com/forms/d/e/1FAIpQLScHQTECFy15X-AxHkNcnvzU6ZjRfTspCKnQ1WA6J8dwOn58Sg/viewform?embedded=true"
+  width={640}
+  height={902}
+  frameBorder={0}
+  marginHeight={0}
+  marginWidth={0}
+>
+  Loading…
+</iframe>
     </StyledDiv>
   )
 }

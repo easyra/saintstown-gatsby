@@ -3,23 +3,17 @@ import styled from "styled-components"
 
 const ContactForm = () => {
   return (
-    <StyledForm action="https://formspree.io/ralaez.89@gmail.com" method="POST">
-      <p>
-        <label>Your Email</label>
-        <input type="email" name="email" required />
-      </p>
-      <p>
-        <label>Subject</label>
-        <input type="text" name="subject" required />
-      </p>
-      <p>
-        <label>Message</label>
-        <textarea name="message" required></textarea>
-      </p>
-      <p>
-        <button type="submit">Send Your Message</button>
-      </p>
-    </StyledForm>
+   <iframe
+  src="https://docs.google.com/forms/d/e/1FAIpQLScHQTECFy15X-AxHkNcnvzU6ZjRfTspCKnQ1WA6J8dwOn58Sg/viewform?embedded=true"
+  width={640}
+  height={902}
+  frameBorder={0}
+  marginHeight={0}
+  marginWidth={0}
+>
+  Loading…
+</iframe>
+
   )
 }
 
