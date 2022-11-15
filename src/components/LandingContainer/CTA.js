@@ -32,7 +32,7 @@ const CTA = () => {
             }}
           >
             {/* <BuyBookBtn /> */}
-            <StyledButton href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ralaez%2e89%40gmail%2ecom&lc=US&item_name=A%20Peace%20of%20Me%28Pre%2dorder%29&item_number=001&amount=20%2e00&currency_code=USD&button_subtype=services&shipping=5%2e00&bn=PP%2dBuyNowBF%3abtn_buynow_SM%2egif%3aNonHosted">
+            <StyledButton href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=GUEYYY9M5UJSN&lc=US&item_name=A%20Peace%20of%20Me%20Book&amount=15%2e00&currency_code=USD&button_subtype=services&shipping=3%2e00&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest"
               Buy Now
             </StyledButton>
           </div>
