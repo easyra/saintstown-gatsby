@@ -26,8 +26,31 @@ const completedFeatures = [
   },
   {
     title: "A LIFE’S RUN",
-    text:
-      "A Life's Run, a crime and family drama about a family of gifted track stars who is hit with tragedy when their estranged sister is murdered. Unaware the sister had a daughter that grew up a troubled teen in foster care.  Seventeen years later the daughter, in the act of committing a crime and being witness to another, unknowingly reunited with her mother’s sister, while running from the scene via a random car accident.  The aunt’s passion for running was never the same after her sister’s death, until now. Unaware of their relationship; they instantly feel a connection.  They share a love for running.  It is an uplifting story for those who believe despite life “lifing” you; you should continue to run the race.",
+    text: <div>
+      3 Minutes (Mockumentary)
+      <hr/>
+      A Gangster and His Girl (Feature)
+      <hr/>
+      Cleopatra Jones (Reimagined Feature)
+      <hr/>
+      Forty Acres (Series)
+      <hr/>
+      Gordon's War (Reimagined Feature)
+      <hr/>
+      House of Roses (Series)
+      <hr/>
+      It's Family (Series)
+      <hr/>
+      Living with Papa (Feature)
+      <hr/>
+      Prince Love (Musical Short)
+      <hr/>
+      Rawlings (Reimagined Series)
+      <hr/>
+      T-Ball Dads (Feature)
+      <hr/>
+      The Chosen (Series)
+    </div>      
   },
 ]
 
