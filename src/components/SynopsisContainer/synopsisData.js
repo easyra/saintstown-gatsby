@@ -85,7 +85,7 @@ const treatmentFilms = [
       "Prince Love",
   },
   {
-    title: "Reimagined Series",
+    title: "Reimagined Film to Series",
     text:
       "Rawlings",
   },
@@ -104,10 +104,10 @@ const completedStagePlays = [
 ]
 const data = {
   "Completed Features": completedFeatures,
-  "Treatments": treatmentFilms,
   "Completed Television Pilots": completedTelevisionPilots,
    "Completed Stage Plays": completedStagePlays,
   "Completed Short Film": completedShortFilm,
+   "Treatments": treatmentFilms,
  
 }
 export default data
