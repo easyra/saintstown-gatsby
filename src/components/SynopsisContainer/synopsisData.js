@@ -55,6 +55,12 @@ const completedShortFilm = [
     text:
       "Imagine in 1942, making the wrong decision regarding love in a Harlem bar.  The same bar thirty years later, your spirit relives itself in a different body, only to make the wrong decision again.  2002… In the exact same bar, with the same gathering of spirits, they finally get it right.  ",
   },
+  {
+    title: "TREATMENTS",
+    text:
+      "3 Minutes (Mockumentary)\nA Gangster and His Girl (Feature)\nCleopatra Jones (Reimagined Feature)\nForty Acres (Series)\nGordon's War (Reimagined Feature)\nHouse of Roses (Series)\nLiving with Papa (Feature)\nPrince Love (Musical Short)\nRawlings (Reimagined Series)\nT-Ball Dads (Feature)\nThe Chosen (Series)\nThe Light (Feature)"
+    ,
+  }
 ]
 
 const completedStagePlays = [
