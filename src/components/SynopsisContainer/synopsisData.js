@@ -58,7 +58,7 @@ const completedShortFilm = [
   {
     title: "TREATMENTS",
     text:
-      "3 Minutes (Mockumentary)\nA Gangster and His Girl (Feature)\nCleopatra Jones (Reimagined Feature)\nForty Acres (Series)\nGordon's War (Reimagined Feature)\nHouse of Roses (Series)\nLiving with Papa (Feature)\nPrince Love (Musical Short)\nRawlings (Reimagined Series)\nT-Ball Dads (Feature)\nThe Chosen (Series)\nThe Light (Feature)"
+       "3 Minutes (Mockumentary)\n"+"A Gangster and His Girl (Feature)\n"+"Cleopatra Jones (Reimagined Feature)\n"+"Forty Acres (Series)\n"+"Gordon's War (Reimagined Feature)\n"+"House of Roses (Series)\n"+"Living with Papa (Feature)\n"+"Prince Love (Musical Short)\n"+"Rawlings (Reimagined Series)\n"+"T-Ball Dads (Feature)\n"+"The Chosen (Series)\n"+"The Light (Feature)"
   },
 ]
 
