@@ -104,7 +104,7 @@ const completedStagePlays = [
 ]
 const data = {
   "Completed Features": completedFeatures,
-  "Treatment": treatmentFilms,
+  "Treatments": treatmentFilms,
   "Completed Television Pilots": completedTelevisionPilots,
    "Completed Stage Plays": completedStagePlays,
   "Completed Short Film": completedShortFilm,
