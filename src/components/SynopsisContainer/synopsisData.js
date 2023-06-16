@@ -1,4 +1,5 @@
 import React from "react"
+
 const completedFeatures = [
   {
     title: "PAINT",
@@ -27,31 +28,8 @@ const completedFeatures = [
   },
   {
     title: "A LIFE’S RUN",
-    text: <div>
-      3 Minutes (Mockumentary)
-      <hr/>
-      A Gangster and His Girl (Feature)
-      <hr/>
-      Cleopatra Jones (Reimagined Feature)
-      <hr/>
-      Forty Acres (Series)
-      <hr/>
-      Gordon's War (Reimagined Feature)
-      <hr/>
-      House of Roses (Series)
-      <hr/>
-      It's Family (Series)
-      <hr/>
-      Living with Papa (Feature)
-      <hr/>
-      Prince Love (Musical Short)
-      <hr/>
-      Rawlings (Reimagined Series)
-      <hr/>
-      T-Ball Dads (Feature)
-      <hr/>
-      The Chosen (Series)
-    </div>      
+    text:
+      "A Life's Run, a crime and family drama about a family of gifted track stars who is hit with tragedy when their estranged sister is murdered. Unaware the sister had a daughter that grew up a troubled teen in foster care.  Seventeen years later the daughter, in the act of committing a crime and being witness to another, unknowingly reunited with her mother’s sister, while running from the scene via a random car accident.  The aunt’s passion for running was never the same after her sister’s death, until now. Unaware of their relationship; they instantly feel a connection.  They share a love for running.  It is an uplifting story for those who believe despite life “lifing” you; you should continue to run the race.",
   },
 ]
 
@@ -78,14 +56,40 @@ const completedShortFilm = [
     title: "LOVE DEJA VU",
     text:
       "Imagine in 1942, making the wrong decision regarding love in a Harlem bar.  The same bar thirty years later, your spirit relives itself in a different body, only to make the wrong decision again.  2002… In the exact same bar, with the same gathering of spirits, they finally get it right.  ",
+  }
+]
+const treatmentFilms = [
+  {
+    title: "Mockumentary",
+    text:
+      "3 Minutes",
   },
   {
-    title: "TREATMENTS",
+    title: "Feature",
     text:
-       "3 Minutes (Mockumentary)\n"+"A Gangster and His Girl (Feature)\n"+"Cleopatra Jones (Reimagined Feature)\n"+"Forty Acres (Series)\n"+"Gordon's War (Reimagined Feature)\n"+"House of Roses (Series)\n"+"Living with Papa (Feature)\n"+"Prince Love (Musical Short)\n"+"Rawlings (Reimagined Series)\n"+"T-Ball Dads (Feature)\n"+"The Chosen (Series)\n"+"The Light (Feature)"
+      "A Gangster and His Girl, Living with Papa,T-Ball Dads, The Light"
+  },
+  {
+    title: "Reimagined Features",
+    text:
+      "Cleopatra Jones, Gordon's War",
+  },
+  {
+    title: "Series",
+    text:
+      "Forty Acres, House of Roses, It's Family, The Chosen",
+  },
+  {
+    title: "Musical Short",
+    text:
+      "Prince Love",
+  },
+  {
+    title: "Reimagined Series",
+    text:
+      "Rawlings",
   },
 ]
-
 const completedStagePlays = [
   {
     title: "BROTHERS",
@@ -103,5 +107,6 @@ const data = {
   "Completed Short Film": completedShortFilm,
   "Completed Stage Plays": completedStagePlays,
   "Completed Television Pilots": completedTelevisionPilots,
+  "Treatment": treatmentFilms
 }
 export default data
