@@ -105,9 +105,9 @@ const completedStagePlays = [
 const data = {
   "Completed Features": completedFeatures,
   "Treatment": treatmentFilms,
-  "Completed Short Film": completedShortFilm,
-  "Completed Stage Plays": completedStagePlays,
   "Completed Television Pilots": completedTelevisionPilots,
+   "Completed Stage Plays": completedStagePlays,
+  "Completed Short Film": completedShortFilm,
  
 }
 export default data
