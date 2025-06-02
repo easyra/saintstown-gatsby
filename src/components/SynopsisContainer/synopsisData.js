@@ -89,6 +89,12 @@ const treatmentFilms = [
     text:
       "Rawlings",
   },
+  {
+    title: "TREATMENTS",
+    text:
+      "3 Minutes (Mockumentary)\nA Gangster and His Girl (Feature)\nCleopatra Jones (Reimagined Feature)\nForty Acres (Series)\nGordon's War (Reimagined Feature)\nHouse of Roses (Series)\nLiving with Papa (Feature)\nPrince Love (Musical Short)\nRawlings (Reimagined Series)\nT-Ball Dads (Feature)\nThe Chosen (Series)\nThe Light (Feature)"
+    ,
+  }
 ]
 const completedStagePlays = [
   {
