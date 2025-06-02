@@ -1,3 +1,5 @@
+import React from "react"
+
 const completedFeatures = [
   {
     title: "PAINT",
@@ -54,6 +56,38 @@ const completedShortFilm = [
     title: "LOVE DEJA VU",
     text:
       "Imagine in 1942, making the wrong decision regarding love in a Harlem bar.  The same bar thirty years later, your spirit relives itself in a different body, only to make the wrong decision again.  2002… In the exact same bar, with the same gathering of spirits, they finally get it right.  ",
+  }
+]
+const treatmentFilms = [
+  {
+    title: "Mockumentary",
+    text:
+      "3 Minutes",
+  },
+  {
+    title: "Feature",
+    text:
+      "A Gangster and His Girl, Living with Papa,T-Ball Dads, The Light"
+  },
+  {
+    title: "Reimagined Features",
+    text:
+      "Cleopatra Jones, Gordon's War",
+  },
+  {
+    title: "Series",
+    text:
+      "Forty Acres, House of Roses, It's Family, The Chosen",
+  },
+  {
+    title: "Musical Short",
+    text:
+      "Prince Love",
+  },
+  {
+    title: "Reimagined Film to Series",
+    text:
+      "Rawlings",
   },
   {
     title: "TREATMENTS",
@@ -62,7 +96,6 @@ const completedShortFilm = [
     ,
   }
 ]
-
 const completedStagePlays = [
   {
     title: "BROTHERS",
@@ -77,8 +110,10 @@ const completedStagePlays = [
 ]
 const data = {
   "Completed Features": completedFeatures,
-  "Completed Short Film": completedShortFilm,
-  "Completed Stage Plays": completedStagePlays,
   "Completed Television Pilots": completedTelevisionPilots,
+   "Completed Stage Plays": completedStagePlays,
+  "Completed Short Film": completedShortFilm,
+   "Treatments": treatmentFilms,
+ 
 }
 export default data
