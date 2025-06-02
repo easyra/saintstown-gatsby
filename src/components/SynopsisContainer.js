@@ -54,7 +54,7 @@ const SynopsisContainer = () => {
           )
         })}
       </Grid>{" "}
-      <h6 align="center">All Scripts registered with the WGA</h6>
+      <h6 align="center">All Scripts and Treatments registered with the WGA</h6>
     </StyledSection>
   )
 }
