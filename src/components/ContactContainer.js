@@ -7,7 +7,7 @@ const ContactContainer = () => {
   return (
     <StyledDiv>
       <h1>Email Me Here</h1>
-      <h4>ralaez.89@gmail.com</h4>
+      <h4>randallcdavis.89@gmail.com</h4>
       <iframe
   src="https://docs.google.com/forms/d/e/1FAIpQLScHQTECFy15X-AxHkNcnvzU6ZjRfTspCKnQ1WA6J8dwOn58Sg/viewform?embedded=true"
   width={640}
